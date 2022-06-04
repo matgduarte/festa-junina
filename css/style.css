@@ -3,3 +3,29 @@
     margin: 0;
     box-sizing: border-box
 }
+body{
+    background-color: #EAEAEA;
+}
+header{
+height: 100px;
+background-color: white;
+}
+header ul li{
+    display: inline-block;
+}
+main{
+    width: 80%;
+    margin: auto auto;
+    background-color: white;
+}
+.imgreceitas.img{
+display: block;
+margin: 0 auto;
+border: solid yellow 3px;
+height: 150px;
+border-radius: 10px;
+}
+footer{
+height: 100px;
+background-color: white;
+}
