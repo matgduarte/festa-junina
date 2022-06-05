@@ -59,6 +59,7 @@ main article ul li{
     margin-right: 5%;
     margin-left: 5%;
     border: #F6B915 solid 8px;
+    width: 316px;
 }
 main article ul li img{
     display: block;
