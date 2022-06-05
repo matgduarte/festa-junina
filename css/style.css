@@ -51,8 +51,7 @@ main article ul{
    
 }
 main article ul li{
-    height: 250px;
-    width: 300px;
+   
     background-color: #FC0001;
     display: inline-block;
     margin-top: 10px;
