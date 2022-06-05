@@ -44,30 +44,33 @@ main{
     
 }
 main article ul{
-    background-color: #FFEF38;
+   
     margin: auto;
     text-align: center;
     display: block;
-   
+    margin-top: 10px;
 }
 main article ul li{
    
-    background-color: #FC0001;
+    background-color: #F6B915;
     display: inline-block;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-right: 5%;
     margin-left: 5%;
-    text-align: center;
-
+    border: #F6B915 solid 8px;
+}
+main article ul li img{
+    display: block;
 }
 #img_receitas{
 display: block;
 margin: 0 auto;
-border: solid #FFEF38 3px;
+border: solid #F6B915 8px;
 height: 150px;
 border-radius: 10px;
 width: 70%;
+margin-bottom: 15px;
 }
 footer{
 height: 100px;
