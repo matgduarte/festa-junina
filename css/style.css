@@ -29,6 +29,9 @@ justify-content: space-between;
 align-items: center;
 padding: 30px 10%;
 height: 8vh;
+width: 100%;
+position: fixed;
+background-color: #24252A;
 }
 .logo{
     width: 100px;
@@ -60,8 +63,10 @@ button:hover{
 }
 main{
     background-image: url(../img/7214953.jpg);
-    background-position:fixed;
-    height:82vw;
+   background-position: center center;
+   background-size:cover;
+    height:82vh;
+
 }
 main article ul{
     margin: auto;
@@ -92,17 +97,14 @@ border-radius: 10px;
 width: 70%;
 margin-bottom: 15px;
 }
-.imghome{
-    height:1pc;
-}
+
 footer{
-position: absolute;
-bottom: 0;
+position:relative;
+bottom: 0px;
 left: 0;
 right: 0;
-background-color: #EAEAEA;
-height: 10vh;
-width: 100vw;
+height: 10vw;
+width: 100%;
 padding-top: 40px;
-color: black;
+color: #EAEAEA;
 }
