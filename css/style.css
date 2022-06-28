@@ -4,7 +4,7 @@
     box-sizing: border-box
 }
 body{
-    background-color: #24252A;
+    background-color: #313237;
 }
 .bodyhom{
     background-image: url(../img/balao2.jpg);
@@ -61,12 +61,20 @@ button{
 button:hover{
     background-color: rgba(246, 185, 21, 0.8);
 }
-main{
+.mainhome{
     background-image: url(../img/7214953.jpg);
-   background-position: center center;
+   background-position:center 10%;
    background-size:cover;
-    height:82vh;
-
+    height:94vh;
+}
+.imgrec{
+    background-image: url(../img/receita3.jpeg);
+    background-position:center 10%;
+    background-size:cover;
+     height:100vh;
+}
+main{
+    height: 100%;
 }
 main article ul{
     margin: auto;
@@ -100,11 +108,12 @@ margin-bottom: 15px;
 
 footer{
 position:relative;
-bottom: 0px;
+bottom: 0;
 left: 0;
 right: 0;
-height: 10vw;
+height: 6vh;
 width: 100%;
 padding-top: 40px;
 color: #EAEAEA;
+background-color: #24252A;
 }
