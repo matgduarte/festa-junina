@@ -6,12 +6,6 @@
 body{
     background-color: #313237;
 }
-.bodyhom{
-    background-image: url(../img/balao2.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    
-}
 li, a, button{
 font-weight: 500px;
 font-size: 16px;
@@ -29,58 +23,56 @@ h1{
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-}
-.convite{
-    margin-top: 330px;
-    height: 50vh;
-    border-radius: 10px;
-    border: solid 5px #001646;
+    align-items: center;
 }
 .h1home{
     font-size: 6vh;
     background-color: #F6B915;
     position: absolute;
-    left: 50%;
-    margin-top: 150%;
-    margin-right: -50%;
-    transform: translate(-50%, -175%);
-    padding: 9px 26px;
     border-radius: 10px;
     border: #F6B915 solid 10px;
+    width: 500px;
+    top: 20%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 }
-
-/*
-.divreceita{
-    background-color: #F6B915;
+.divhome div{
+    margin-top: 300px;
+width: 600px;
+clear: both;
+height: 500px;
+text-align: center;
+}
+.convite{
+    height: 50vh;
+    border-radius: 10px;
+    border: solid 5px #001646;
+    display: inline;
+}
+.h1rec{
     display: inline-block;
-    width: 90px;
-    height: 30px;
-    margin-top:20%;
-    margin-left:25%;
-}
-.h1receita{
-    background-color: #F6B915;
-    display:inline-block;
-}
-*/
-.breceita{
-    margin-top: 25vh;
-    margin-left: 25%;
-    position: absolute fixed;
-    padding: 50px;
+  background-color: #F6B915;
+  margin-top: 250px;
+  margin-left: 30%;
+  padding: 9px 26px;
+  border-radius: 20px;
+  border:#F6B915 solid 2px;
+  font-size: 40px;
+
 }
 header{
 display: flex;
 justify-content: space-between;
 align-items: center;
-padding: 30px 10%;
+padding: 30px 5%;
 height: 8vh;
 width: 100%;
 position: fixed;
 background-color: #24252A;
 }
 .logo{
-    width: 70px;
+    width: 110px;
 }
 header ul{
     list-style: none;
@@ -160,9 +152,15 @@ position:relative;
 bottom: 0;
 left: 0;
 right: 0;
-height: 6vh;
+height:auto;
 width: 100%;
-padding-top: 40px;
 color: #EAEAEA;
 background-color: #24252A;
+padding-left: 3px;
+padding-top: 3px;
+padding-bottom: 3px;
+text-align: center;
+}
+footer img{
+    height: 48px;
 }
