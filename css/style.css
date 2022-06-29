@@ -25,14 +25,27 @@ h1{
     transform: translate(-50%, -50%);
     align-items: center;
 }
-.h1home{
-    font-size: 6vh;
+.h1H{
+    font-size:6vh;
     background-color: #F6B915;
     position: absolute;
     border-radius: 10px;
     border: #F6B915 solid 10px;
     width: 500px;
     top: 20%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.h1B{
+    padding: 9px 26px;
+    font-size: 350%;
+    background-color: #F6B915;
+    position: absolute;
+    border-radius: 10px;
+    border: #F6B915 solid 10px;
+    width: auto;
+    top: 19%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
@@ -63,6 +76,9 @@ text-align: center;
 .logo{
     width: 110px;
     float: left;
+}
+.divb{
+    margin-top: 12%;
 }
 header{
 display: flex;
